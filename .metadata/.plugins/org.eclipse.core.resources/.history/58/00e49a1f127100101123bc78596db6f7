@@ -1,0 +1,15 @@
+package Bai_5_1_5_2;
+
+public abstract Person {
+
+	private String name;
+	private int age;
+
+	public Person(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
+
+}

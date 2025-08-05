@@ -1,0 +1,11 @@
+package Bai_5_1;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Person ps1 = new Person("Phuc", 21);
+		
+		ps1.
+		
+	}
+}

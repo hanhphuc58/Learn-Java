@@ -1,0 +1,12 @@
+package Bai_6_1;
+
+import java.util.Scanner;
+
+public class Bai_6_1 {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	try {
+		
+	}
+}

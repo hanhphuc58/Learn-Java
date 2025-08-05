@@ -1,0 +1,14 @@
+package Bai_6_2;
+
+public class Bai_6_2 {
+	public static void main(String[] args) {
+		
+		
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+}

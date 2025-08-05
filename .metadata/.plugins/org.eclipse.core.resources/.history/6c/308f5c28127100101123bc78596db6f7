@@ -1,0 +1,10 @@
+package Bai_5_1_5_2;
+
+public abstract Person {
+
+	private String name;
+	private int age;
+
+
+
+}

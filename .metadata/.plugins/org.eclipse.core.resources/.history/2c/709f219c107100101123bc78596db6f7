@@ -1,0 +1,79 @@
+package Bai_4_3;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Bai_4_3 {
+
+	public static void addName(ArrayList<String> a) {
+
+		Scanner sc = new Scanner(System.in);
+
+		String inputName = sc.nextLine();
+
+		a.add(inputName);
+
+	}
+
+	public static void removeName(ArrayList<String> a, String inputName) {
+
+		for (int i = a.size() - 1; i >= 0; i--) {
+
+			if (a.get(i).equals(inputName)) {
+
+				a.remove(i);
+			}
+		}
+	}
+
+	public static void changeName(ArrayList<String> a, String name, String inputName) {
+
+		for (int i = 0; i < a.size(); i++) {
+
+			if (a.get(i).equals(name)) {
+
+				a.set(i, inputName);
+			}
+		}
+
+	}
+
+	public static boolean findName(ArrayList<String> a, String inputName) {
+		for (int i = 0; i < a.size(); i++) {
+
+			if (a.get(i).equals(inputName)) {
+
+				return true;
+			}
+
+		}
+
+		return 0;
+	}
+
+	public static void main(String[] args) {
+
+		ArrayList<String> a = new ArrayList<>();
+
+		// them
+		for (int i = 0; i < 3; i++) {
+			addName(a);
+		}
+
+		System.out.println(a);
+
+//		// xoa
+//		removeName(a, "Phuc");
+//		System.out.println(a);
+
+		// change
+		changeName(a, "Phuc", "Cac");
+		System.out.println(a);
+
+		if (findName(a, "Cac") != 0) {
+			System.out.println("Tim ra");
+		} else {
+			System.out.println("deo");
+		}
+	}
+}

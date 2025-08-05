@@ -1,0 +1,13 @@
+package Bai_4_2;
+
+public class Bai_4_2 {
+	
+	public static void main(String[] args) {
+		
+		int a[][] = new int [3][3];
+		
+		a.close();
+		
+	}
+	
+}

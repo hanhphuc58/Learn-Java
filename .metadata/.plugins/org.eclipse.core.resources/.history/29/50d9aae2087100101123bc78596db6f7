@@ -1,0 +1,17 @@
+package Bai_4_1;
+
+public class Bai_4_1 {
+
+	public static void main(String[] args) {
+
+//		short a[] = { 1, 2, 3, 4, 6 };
+//
+//		int s = 0;
+//
+//		for (short i = 0; i < 5; i++) {
+//			s += a[i];
+//		}
+
+		System.out.println("Hello Word");
+	}
+}

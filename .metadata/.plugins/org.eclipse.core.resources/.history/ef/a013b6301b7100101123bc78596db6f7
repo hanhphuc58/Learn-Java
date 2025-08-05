@@ -1,0 +1,20 @@
+package Bai_5_3;
+
+public class BankAccount {
+	private double balance;
+
+	public BankAccount(double balance) {
+		this.balance = balance;
+	}
+
+	public void deposit(double money) {
+		balance += money;
+	}
+	
+	public void withdraw(double money) {
+		balance -= money;
+	}
+	
+	
+	
+}

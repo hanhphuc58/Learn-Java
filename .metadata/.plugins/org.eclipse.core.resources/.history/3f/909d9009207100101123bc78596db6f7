@@ -1,0 +1,23 @@
+package Bai_6_2;
+
+import java.util.Scanner;
+
+public class Bai_6_2 {
+
+	public void Age(int age) {
+		Scanner sc = new Scanner(System.in);
+
+		int inputAge = sc.nextInt();
+
+		if (inputAge < 0 || inputAge > 150) {
+
+			throw new InvalidAgeException("Loi");
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,17 @@
+package Bai_5_1_5_2;
+
+public class Student extends Person{
+	
+	private String studentID;
+	
+
+	
+
+
+
+	@Override
+	void introduce() {
+		// TODO Auto-generated method stub
+		
+	}
+}
