@@ -36,15 +36,15 @@ Bài tập 2: Tạo một ngoại lệ tùy chỉnh InvalidAgeException. Viết 
 
 7. I/O và file
 Bài tập 1: Viết chương trình đọc nội dung từ một file văn bản có sẵn và in ra màn hình.
-Bài tập 2: Sử dụng BufferedWriter để ghi danh sách 5 tên sinh viên vào file, mỗi tên trên một dòng.
+Bài tập 2: Sử dụng BufferedWriter để ghi danh sách 5 tên sinh viên vào file, mỗi tên trên một dòng.	
 Bài tập 3: Đọc một file chứa các số nguyên (mỗi số trên một dòng), tính tổng và ghi kết quả vào một file khác.
 
 8. Collections Framework
 Bài tập 1: Sử dụng HashSet để lưu trữ các số nguyên nhập từ bàn phím (ít nhất 5 số, có trùng lặp) và in ra danh sách không trùng lặp.
-Bài tập 2: Tạo HashMap để lưu trữ thông tin sinh viên theo cặp mã sinh viên (key) và tên (value). Thực hiện tra cứu tên dựa trên mã nhập từ bàn phím.
+Bài tập 2: Tạo HashMap để lưu trữ thông tin sinh viên theo cặp mã sinh viên (key) và tên (value). Thực hiện tra cứu tên dựa trên mã nhập từ bàn phíhsm.
 Bài tập 3: Tạo một ArrayList chứa 10 số nguyên, sử dụng vòng lặp để thêm phần tử và tính tổng các số trong danh sách.
 
-9. Multithreading
+9. Multithreading 
 Bài tập 1: Tạo hai luồng (thread): một luồng in các số chẵn từ 1 đến 100, luồng còn lại in các số lẻ từ 1 đến 100.
 Bài tập 2: Tạo một biến chung và hai luồng cùng tăng giá trị biến đó. Sử dụng synchronized để đảm bảo không xảy ra xung đột.
 
