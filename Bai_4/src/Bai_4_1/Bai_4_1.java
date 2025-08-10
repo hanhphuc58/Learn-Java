@@ -6,7 +6,7 @@ public class Bai_4_1 {
 
 		int s = 0;
 
-		for (short i = 0; i < 5; i++) {
+		for (short i = 0; i < a.length; i++) {
 			s += a[i];
 		}
 
